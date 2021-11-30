@@ -95,10 +95,10 @@ _ctid=${_ctid:-`pvesh get /cluster/nextid`}
 _cpu_cores=${_cpu_cores:-1}
 _disk_size=${_disk_size:-2G}
 _host_name=${_host_name:-nginx-proxy-manager}
-_bridge=${_bridge:-vmbr0}
+_bridge=${_bridge:-vmbr1}
 _memory=${_memory:-512}
 _swap=${_swap:-0}
-_storage=${_storage:-local-lvm}
+_storage=${_storage:-local}
 _storage_template=${_storage_template:-local}
 
 # Test if ID is in use
